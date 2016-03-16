@@ -1,0 +1,22 @@
+{
+  "name": "camper_leaderboard",
+  "version": "1.0.0",
+  "description": "FCC project. Build a Camper Leaderboard.I can see a table of the Free Code Camp campers who've earned the most brownie points in the past 30 days.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel app.js -o app_compiled.js"
+  },
+  "author": "kurt johnson (pompan129)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

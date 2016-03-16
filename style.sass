@@ -1,0 +1,71 @@
+$primary-color: #FF9900
+$secondary-color: #041E42
+$accent-color: #E6E6E6
+
+.top-header
+  position: relative
+  background-color: $secondary-color
+  color: white
+  .sort-buttons
+    position: absolute
+    bottom: 0
+    right: 0
+    margin: 10px
+.table
+  table-layout: fixed
+  margin-top: 25px
+  caption
+    caption-side: top
+    text-align: center
+    border: 1px solid gray
+    background-color: #808080
+    color: white
+    border-radius: 20px 20px 0 0
+  .header
+    background-color: $primary-color
+    color: white
+    font-size: 1.5em
+    border: 1px solid gray
+    .sortable
+      cursor: pointer
+      position: relative
+      .caret
+        border-left: 6px solid transparent
+        border-right: 6px solid transparent
+        border-top: 6px solid white
+    .sortable:hover
+      background-color: $secondary-color
+    .row-rank
+      width: 10%
+    .row-name
+      width: 40%
+    .row-pts30
+      width: 25%
+    .row-pts-all
+      width: 25%
+    th
+      border: none
+      text-shadow: 0 0 1px #4D4D4D
+  tbody
+    tr
+      font-size: 1.25em
+      td
+        padding: .2em
+        border: 1px solid #808080
+        text-overflow: ellipsis
+      img
+        width: 40px
+        height: 40px
+      span
+        padding-left: 10px
+    tr:nth-child(even)
+      background-color: $accent-color
+  .footer
+    background-color: $primary-color
+    text-align: center
+    color: $accent-color
+
+
+
+
+
